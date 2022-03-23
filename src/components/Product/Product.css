@@ -45,6 +45,6 @@
 .cart-btn:hover {
     background-color: orange;
 }
-.cart {
-    padding-right: 10px;
+.cart-text {
+    padding-left: 10px;
 }

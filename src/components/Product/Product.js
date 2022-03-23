@@ -18,8 +18,8 @@ const Product = ({ product, addCartHandel }) => {
             </div>
             <button onClick={() => addCartHandel(product)} className="cart-btn">
                 <p>
-                    <spam className="cart">Add to Cart</spam>
-                    <FontAwesomeIcon icon={faCartPlus} />
+                    Add to Cart
+                    <FontAwesomeIcon className="cart-text" icon={faCartPlus} />
                 </p>
             </button>
         </div>
